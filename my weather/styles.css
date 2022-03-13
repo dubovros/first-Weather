@@ -1,0 +1,92 @@
+body {
+    background-image: url("https://source.unsplash.com/1600x900/?landscape");
+    font-family: 'Open Sans', sans-serif;
+    font-size: 17.5px;
+    color: #bbbbbb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    overflow: hidden;
+}
+
+.box {
+    background-color: rgba(1, 1, 1, 0.8);
+    border-radius: 30px;
+    width: 450px;
+    height: 200px;
+    max-width: 100%;
+    padding: 40px;
+}
+
+.search {
+    display: flex;
+    justify-content: center;
+    height: 40px;
+}
+
+.text {
+    margin: 0 25px;
+    padding: 5px 18px;
+    color: white;
+    background: rgba(168, 168, 168, 0.3 );
+    width: 250px;
+    height: 40px;
+    font-size: inherit;
+    font-family: inherit;
+    border-radius: 30px;
+    border: none;
+    outline: none;
+    box-sizing: border-box;
+}
+
+.button {
+    border-radius: 50%;
+    border: none;
+    outline: none;
+    width: 40px;
+    padding: 0;
+    background: rgba(168, 168, 168, 0.3 );
+    color: white;
+}
+
+.button:hover {
+    cursor: pointer;
+    background: rgba(255, 255, 255, 0.4);
+}
+
+.weather {
+    text-align: center;
+    margin: 18px 0 5px;
+    font-size: 20px;
+}
+
+.flex-1 {
+    display: flex;
+    justify-content: center;
+    font-size: 16px;
+}
+
+.temperature {
+    margin: 0 5px;
+}
+
+.description {
+    margin: 0 5px;
+}
+
+.icon {
+    display: flex;
+    justify-content: center;
+}
+
+.flex-2 {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 12px;
+}
+
+.flex-3 {
+    display: flex;
+    justify-content: space-between;
+}
